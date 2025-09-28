@@ -1,0 +1,24 @@
+.table-wrapper {
+  height: 90vh; 
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.table-container {
+  flex: 1;           
+  overflow: auto;   
+  max-height: 100%;
+}
+
+table.mat-table {
+  min-width: 100%;
+}
+
+.name-column {
+  width: 30%;
+  max-width: 30%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  sotagapi:
+    build:
+      context: ./sotagapi
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - tags-data:/app/
+
+  sotagui:
+    build:
+      context: ./sotagui
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"
+    depends_on:
+      - sotagapi
+
+volumes:
+  tags-data:
+    driver: local

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sotagapi", "sotagapi.csproj", "{CB5A2D5D-200B-4463-B45E-6D8E2EF11C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sotagapi.Tests.Unit", "..\sotagapi.Tests.Unit\sotagapi.Tests.Unit.csproj", "{5F421BBB-B683-49BE-9B9C-FAF53E8476E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sotagapi.Tests.Integration", "..\sotagapi.Tests.Integration\sotagapi.Tests.Integration.csproj", "{190CE939-ED21-4688-A1A0-A9AA7D5A8CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB5A2D5D-200B-4463-B45E-6D8E2EF11C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5A2D5D-200B-4463-B45E-6D8E2EF11C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5A2D5D-200B-4463-B45E-6D8E2EF11C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5A2D5D-200B-4463-B45E-6D8E2EF11C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F421BBB-B683-49BE-9B9C-FAF53E8476E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F421BBB-B683-49BE-9B9C-FAF53E8476E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F421BBB-B683-49BE-9B9C-FAF53E8476E2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{190CE939-ED21-4688-A1A0-A9AA7D5A8CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190CE939-ED21-4688-A1A0-A9AA7D5A8CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190CE939-ED21-4688-A1A0-A9AA7D5A8CB7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F9943D5-88EA-4E17-9606-DE181881CAC8}
+	EndGlobalSection
+EndGlobal
